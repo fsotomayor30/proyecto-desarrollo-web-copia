@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!-- CONFIGURACION DEL HTML -->
+    <head>
+        <meta charset="UTF-8">
+        <title>Concepción</title>
+        <link rel="stylesheet" href="estilo.css">
+        <script src="javascript.js"></script>
+
+    </head>
+    <!-- CONTENIDO DEL HTML -->
+    <!-- EN EL HTML SE PUEDE REFERENCIAR MEDIANTE CLASES AGREGANDOLE EL ATRIBUTO CLASS AL ELEMENTO,
+    SI SE REQUIERE AGREGAR MAS DE UNA CLASE SE SEPARA POR ESPACIOS -->
+    <body>
+
+        <div id="agrupar">
+            <header id="cabecera">
+                <h1>
+                    Concepción
+                </h1>
+            </header>
+        </div>
+        <!-- BARRA DE NAVEGACION-->
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Principal</a></li>
+                <li><a href="fotos.html">Fotos</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        Sucursales
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="chillan.html">Chillán</a>
+                        <a href="concepcion.html">Concepción</a>
+                        <a href="santiago.html">Santiago</a>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+        <section id="seccion">
+            <div class="z-depth-1-half map-container" id="map-container-google-1">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1375.734532678083!2d-73.0509742305059!3d-36.82715517867287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9669b5d0f7080943%3A0x9388a850ce8442c!2sPlaza%20de%20la%20Independencia%20de%20Concepci%C3%B3n!5e0!3m2!1ses-419!2scl!4v1606776481067!5m2!1ses-419!2scl" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </section>
+        <aside id="columna">
+            <blockquote>Mensaje numero 1</blockquote>
+            <blockquote>Mensaje numero 2</blockquote>
+        </aside>
+        <footer id="pie">
+            Derechos reservados &copy; 2010-2011
+        </footer>
+    </body>
+</html>
